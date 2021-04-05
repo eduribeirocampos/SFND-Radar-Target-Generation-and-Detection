@@ -169,14 +169,14 @@ figure,surf(doppler_axis,range_axis,RDM);
 %Select the number of Training Cells in both the dimensions.
 
 T_row = 10;
-T_col = 10;
+T_col = 5;
 
 % *%TODO* :
 %Select the number of Guard Cells in both dimensions around the Cell under 
 %test (CUT) for accurate estimation
 
-G_row = 2;
-G_col = 2;
+G_row = 3;
+G_col = 1;
 
 % *%TODO* :
 % offset the threshold by SNR value in dB
